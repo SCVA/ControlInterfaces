@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ControlInterfaces</string>
+    <array name="listaOpciones">
+        <item name="Opcion1">Opcion1</item>
+        <item name="Opcion2">Opcion2</item>
+        <item name="Opcion3">Opcion3</item>
+    </array>
 </resources>

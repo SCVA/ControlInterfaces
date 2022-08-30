@@ -57,4 +57,63 @@
         android:layout_height="wrap_content"
         android:text="Agrandar Letra" />
 
+    <Switch
+        android:id="@+id/switchHabilitar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color Verde" />
+
+    <RadioGroup
+        android:id="@+id/grupoDimension"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/pequeñaOpc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pequeña" />
+
+        <RadioButton
+            android:id="@+id/normalOpc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal" />
+
+        <RadioButton
+            android:id="@+id/grandeOpc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grande" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/grupoCarros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="10" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/listaOpciones" />
+
 </LinearLayout>
